@@ -37,11 +37,6 @@ body {
     align-items: space-between;
 }
 
-.card__yellow--formnumber {
-    width: 324px;
-    height: 21px;
-}
-
 .card__yellow--content--dateandcvv {
     margin-top: 0px;
     display: flex;
@@ -71,7 +66,7 @@ body {
 
 .card__yellow--form {
     margin-top: 21px;
-    max-width: 104px;
+    width: 104px;
     max-height: 21px;
     font-family: Roboto;
     font-style: normal;
@@ -81,7 +76,25 @@ body {
     letter-spacing: 0.3em;
     color: #468189;
     background: #F4E9CD;
-    text-decoration: underline;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #468189;
+}
+
+.card__yellow--formnumber {
+    width: 349px;
+    height: 21px;
+}
+ 
+.card__yellow--formname {
+    width: 349px;
+    height: 21px;
+}
+
+::placeholder {
+    color: #468189;
+    opacity: 1;
 }
 
 .card__button-container {
@@ -111,8 +124,6 @@ body {
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
-    
-    
 }
 
 .card__blue {
@@ -130,5 +141,4 @@ body {
     position: absolute;
     left: -73px;
     bottom: 73px;
-    
 }
