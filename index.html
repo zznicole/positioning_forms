@@ -13,19 +13,21 @@
             <div class="card__yellow">
                 <div class="card__yellow--content">
                    <label class="card__yellow--title card__yellow--titlenumber">CARD NUMBER</label>
-                   <input class="card__yellow--form card__yellow--formnumber" type="number" required>
+                   <input class="card__yellow--form card__yellow--formnumber" type="number" placeholder="0000 0000 0000 0000" required>
                 </div>
-                <div class="card__yellow--content">
-                    <label class="card__yellow--title card__yellow--titledate">MM/YY</label>
-                    <input class="card__yellow--form card__yellow--formdate" type="month" required>
-                </div>
-                <div class="card__yellow--content">
-                    <label class="card__yellow--title card__yellow--titlecvv">CVV CODE</label>
-                    <input class="card__yellow--form card__yellow--formncvv" type="number" required>
-                </div>
+                <div class="card__yellow--content card__yellow--content--dateandcvv">
+                    <div class="card__yellow--content">
+                        <label class="card__yellow--title card__yellow--titledate">MM/YY</label>
+                        <input class="card__yellow--form card__yellow--formdate" type="month" placeholder="00/00" required>
+                    </div>
+                    <div class="card__yellow--content card__yellow--contentcvv">
+                        <label class="card__yellow--title card__yellow--titlecvv">CVV CODE</label>
+                        <input class="card__yellow--form card__yellow--formncvv" type="number" placeholder="000" required>
+                    </div>
+                </div> 
                 <div class="card__yellow--content">
                     <label class="card__yellow--title card__yellow--titlename">CARDHOLDER FULL NAME</label>
-                    <input class="card__yellow--form card__yellow--formname" type="name" required>
+                    <input class="card__yellow--form card__yellow--formname" type="name" placeholder="Name Surname" required>
                 </div>
                 <div class="card__button-container">
                    <botton class="card__button">PAY NOW</botton>

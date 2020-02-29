@@ -37,6 +37,22 @@ body {
     align-items: space-between;
 }
 
+.card__yellow--formnumber {
+    width: 324px;
+    height: 21px;
+}
+
+.card__yellow--content--dateandcvv {
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.card__yellow--contentcvv {
+    margin-left: 81px;
+}
+
 .card__yellow--title {
     font-family: Roboto;
     font-style: normal;
@@ -47,7 +63,14 @@ body {
     color: rgba(70, 129, 137, 0.7);
 }
 
+.ccare__yellow--title--dateandcvv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .card__yellow--form {
+    margin-top: 21px;
     max-width: 104px;
     max-height: 21px;
     font-family: Roboto;
@@ -62,21 +85,24 @@ body {
 }
 
 .card__button-container {
-    width: 202px;
-    height: 48px;
-    background: #468189;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
-    border-radius: 40px;display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.card__button {
+    margin-top: 56px;
     width: 202px;
     height: 48px;
     background: #468189;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.card__button-container:hover {
+    background-color: #5caab4;
+    transform: scale(1.1)
+}
+
+.card__button {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -85,9 +111,8 @@ body {
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
-    justify-content: center;
-    align-items: flex-end;
-    overflow:
+    
+    
 }
 
 .card__blue {
